@@ -1,19 +1,9 @@
 /*  your css code here. If applicable */
-#grid{
-	display:grid;
-	grid-template-columns:242.5px 242.5px 242.5px 242.5px;
-	grid-template-rows:124px 124px 124px 124px 124px;
-	/* grid-template-areas:
-		"a a a a"
-	    "b c d d"
-	    "b e e f"
-	    "b g h i" 
-	    "b j j j";
-	grid-row-gap:10px;
-	grid-column-gap:10px; */
-	/* grid-row-gap:10px;
-	grid-column-gap:10px; */
-	                       
+#grid {
+  display: grid;
+  grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
+  grid-template-rows: 124px 124px 124px 124px 124px;
+  grid-gap: 10px;
 }
 .box1{
 	/* grid-area:a; */
