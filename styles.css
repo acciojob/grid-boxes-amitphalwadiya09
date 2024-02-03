@@ -1,1 +1,63 @@
 /*  your css code here. If applicable */
+#grid{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas:
+		"a a a a"
+	    "b c d d"
+	    "b e e f"
+	    "b g h i" 
+	    "b j j j";
+	grid-row-gap:10px;
+	grid-column-gap:10px;
+	                       
+}
+.box1{
+	grid-area:a;
+	background-color:rgb(0,128,1);
+	
+}
+.box2{
+	grid-area:b;
+	background-color:rgb(0,128,1);
+}
+.box3{
+	grid-area:c;
+	background-color:rgb(0,128,1);
+}
+.box4{
+	grid-area:d;
+	background-color:rgb(0,128,1);
+}
+.box5{
+	grid-area:e;
+	background-color:rgb(0,128,1);
+}
+.box6{
+	grid-area:f;
+	background-color:rgb(0,128,1);
+}
+.box7{
+	grid-area:g;
+	background-color:rgb(0,128,1);
+}
+.box8{
+	grid-area:h;
+	background-color:rgb(0,128,1);
+}
+.box9{
+	grid-area:i;
+	background-color:rgb(0,128,1);
+}
+.box10{
+	grid-area:j;
+	background-color:rgb(0,128,1);
+}
+
+
+
+
+
+
+
