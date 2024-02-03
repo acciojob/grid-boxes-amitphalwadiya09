@@ -4,6 +4,8 @@
   grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
   grid-template-rows: 124px 124px 124px 124px 124px;
   grid-gap: 10px;
+	color:white;
+	font-size:40px;
 }
 .box1{
 	/* grid-area:a; */
